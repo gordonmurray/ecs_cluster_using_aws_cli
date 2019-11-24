@@ -1,0 +1,19 @@
+{
+    "family": "php-hello-world",
+    "containerDefinitions": [
+        {
+            "name": "php-hello-world",
+            "image": "gordonrmurray/php-hello-world:latest",
+            "cpu": 100,
+            "command": [],
+            "memory": 100,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ]
+        }
+    ]
+}

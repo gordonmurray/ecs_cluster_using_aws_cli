@@ -1,0 +1,14 @@
+{
+    "cluster": "example",
+    "serviceName": "my-service",
+    "taskDefinition": "php-hello-world",
+    "loadBalancers": [
+        {
+            "targetGroupArn": "TARGET_GROUP_ARN",
+            "containerName": "php-hello-world",
+            "containerPort": 80
+        }
+    ],
+    "desiredCount": 1,
+    "role": "ecsServiceRole"
+}

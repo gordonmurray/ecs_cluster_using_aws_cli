@@ -11,7 +11,7 @@ set -ex
 REGION=us-east-1
 # Key Pair name to create
 KEY_PAIR_NAME=example
-# EC2 optimized AMI
+# ECS optimized AMI
 AMI_ID=ami-097e3d1cdb541f43e
 
 #
